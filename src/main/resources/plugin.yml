@@ -1,0 +1,17 @@
+name: CMIPortalParticleHotfix
+version: '${version}'
+main: art.ryanstew.cmiportaleffecthotfix.CMIPortalParticleHotfix
+api-version: '1.20'
+author: RuntimeRyn
+depend: [CMI, CMILib]
+
+commands:
+    cmiportalparticlehotfix:
+        description: Fix all CMI portals
+        permission: cmiportalparticlehotfix.fixportals
+        aliases: [particlehotfix, fixportals, portalfix]
+
+permissions:
+    cmiportalparticlehotfix.fixportals:
+        description: Permission to use /portalfix.
+        default: op

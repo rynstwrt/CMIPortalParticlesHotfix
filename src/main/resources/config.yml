@@ -1,0 +1,10 @@
+# Command prefix
+prefix: "&2CMIPortalHotfix &7»"
+
+# Should the fix be run on server start?
+fix-on-start: true
+
+# How long (IN TICKS) after a player runs /cmi reload should the portals be fixed?
+# It uses PlayerCommandPreprocessEvent, so you have to estimate how long
+# the CMI reload will take. 20-40 ticks seems to work for most cases.
+player-reload-fix-delay: 30
