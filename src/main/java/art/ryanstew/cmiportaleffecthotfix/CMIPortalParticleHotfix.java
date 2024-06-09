@@ -79,7 +79,8 @@ public final class CMIPortalParticleHotfix extends JavaPlugin
         try
         {
             portalsConfig.save(portalsConfigFile);
-        } catch (IOException err)
+        }
+        catch (IOException err)
         {
             getLogger().severe("CMIPORTALPARTICLEHOTFIX FAILED TO SAVE PORTALS CONFIG");
         }
