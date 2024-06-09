@@ -7,6 +7,7 @@ import net.Zrips.CMILib.Effects.CMIEffect;
 import net.Zrips.CMILib.Effects.CMIEffectManager;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
+import org.bukkit.command.PluginCommand;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
@@ -42,7 +43,9 @@ public final class CMIPortalParticleHotfix extends JavaPlugin
 
         getServer().getPluginManager().registerEvents(new PortalParticleHotfixEventListener(this), this);
 
-        Objects.requireNonNull(getCommand("cmiportalparticlehotfix")).setExecutor(new FixPortalCommand(this));
+        PluginCommand command = Objects.requireNonNull(getCommand("cmiportalparticlehotfix"));
+        command.setExecutor(new FixPortalCommand(this));
+        command.setTabCompleter(new FixPortalTabCompleter());
     }
 
 

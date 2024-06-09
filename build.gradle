@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'art.ryanstew'
-version = '1.0.0'
+version = '1.0.1'
 //archivesBaseName = "C:/Users/ryans/Dropbox/Plugin Test Server/plugins/CMIPortalParticleHotfix"
 archivesBaseName = "C:/Users/ryans/Desktop/backupserver/plugins/CMIPortalParticleHotfix"
 
