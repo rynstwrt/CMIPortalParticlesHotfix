@@ -1,4 +1,4 @@
-package art.ryanstew.cmiportaleffecthotfix;
+package art.ryanstew.cmiportalparticlehotfix;
 
 import com.Zrips.CMI.CMI;
 import com.Zrips.CMI.Modules.Portals.CMIPortal;

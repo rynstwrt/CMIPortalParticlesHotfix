@@ -1,4 +1,4 @@
-package art.ryanstew.cmiportaleffecthotfix;
+package art.ryanstew.cmiportalparticlehotfix;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

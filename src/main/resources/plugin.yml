@@ -1,6 +1,6 @@
 name: CMIPortalParticleHotfix
 version: '${version}'
-main: art.ryanstew.cmiportaleffecthotfix.CMIPortalParticleHotfix
+main: art.ryanstew.cmiportalparticlehotfix.CMIPortalParticleHotfix
 api-version: '1.20'
 author: RuntimeRyn
 depend: [CMI, CMILib]

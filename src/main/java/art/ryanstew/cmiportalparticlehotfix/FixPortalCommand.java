@@ -1,4 +1,4 @@
-package art.ryanstew.cmiportaleffecthotfix;
+package art.ryanstew.cmiportalparticlehotfix;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -22,7 +22,7 @@ public class FixPortalCommand implements CommandExecutor
     {
         if (args.length == 0 || args[0].equalsIgnoreCase("help"))
         {
-            plugin.sendFormattedMessage(sender, "&7Usage: &a/fixportals <help/fix/reload>", true);
+            plugin.sendFormattedMessage(sender, "&7Usage: &a/portalfix <help/fix/reload>", true);
             return true;
         }
 
@@ -56,7 +56,7 @@ public class FixPortalCommand implements CommandExecutor
             }
         }
 
-        plugin.sendFormattedMessage(sender, "&7Usage: &a/fixportals <help/fix/reload>", true);
+        plugin.sendFormattedMessage(sender, "&7Usage: &a/portalfix <help/fix/reload>", true);
         return true;
     }
 }
